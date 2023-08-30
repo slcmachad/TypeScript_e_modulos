@@ -7,3 +7,8 @@ qualquer = "";
 // Arrays
 const lista = [];
 lista.push("miu", "dog", 22, true, []);
+const novaTransacao = {
+    tipoTransacao: "",
+    data: new Date(),
+    valor: 0
+};
