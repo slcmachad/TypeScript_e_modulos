@@ -13,13 +13,21 @@ lista.push("miu", "dog", 22, true, []);
 // Tipos personalizados(type alias)
 
 type Transacao = {
-    tipoTransacao: string;
+    tipoTransacao: TipoTransacao;
     data: Date;
     valor: number;
 }
 
+//Enum
+
+enum TipoTransacao{
+    DEPOSITO = "Depósito",
+    TRANSFERENCIA = "Transferência",
+    PAGAMENTO_BOLETO = "Pagamento de Boleto"
+}
+
 const novaTransacao: Transacao = {
-    tipoTransacao: "" ,
+    tipoTransacao: TipoTransacao.DEPOSITO ,
     data: new Date(),
     valor: 0
 }
