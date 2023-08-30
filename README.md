@@ -19,3 +19,10 @@ O TypeScript suporta programação orientada a objetos. Você explorará como cr
 5. Gerenciamento de Dependências
 Você aprenderá como usar o npm para gerenciar dependências de projeto, instalar pacotes TypeScript externos e manter seu ambiente de desenvolvimento limpo.
 
+6. Compilação e Ambiente de Desenvolvimento
+Entenda como configurar e usar o compilador TypeScript (tsc) para transpilar seu código TypeScript em JavaScript. Aprenda a configurar um ambiente de desenvolvimento eficiente com ferramentas como o Visual Studio Code.
+
+7. Testes e Depuração
+Descubra como escrever testes unitários e de integração para seu código TypeScript e aprenda a usar ferramentas de depuração para identificar e corrigir problemas.
+
+
