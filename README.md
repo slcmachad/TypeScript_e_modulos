@@ -25,4 +25,11 @@ Entenda como configurar e usar o compilador TypeScript (tsc) para transpilar seu
 7. Testes e Depuração
 Descubra como escrever testes unitários e de integração para seu código TypeScript e aprenda a usar ferramentas de depuração para identificar e corrigir problemas.
 
+8. Documentação e Boas Práticas
+Saiba como documentar seu código TypeScript adequadamente usando comentários e boas práticas de documentação. Aprenda a seguir as convenções de codificação para tornar seu código mais legível e colaborativo.
 
+9. Projeto Completo
+Ao longo do curso, você trabalhará em um projeto completo, aplicando todos os princípios e técnicas que aprenderá. Isso lhe dará a experiência prática necessária para desenvolver aplicativos TypeScript do mundo real.
+
+10. Comunidade e Recursos
+Descubra os recursos e a comunidade TypeScript disponíveis, incluindo documentação oficial, fóruns, bibliotecas populares e como contribuir para a comunidade.
