@@ -17,7 +17,7 @@ O TypeScript é um superset do JavaScript, o que significa que se pode usar bibl
 O TypeScript suporta programação orientada a objetos. Explorando como criar classes, interfaces, herança e encapsulamento para construir código mais organizado e reutilizável.
 
 5. Gerenciamento de Dependências
-Você aprenderá como usar o npm para gerenciar dependências de projeto, instalar pacotes TypeScript externos e manter seu ambiente de desenvolvimento limpo.
+Aprendendo como usar o npm para gerenciar dependências de projeto, instalando pacotes TypeScript externos e mantendo o ambiente de desenvolvimento limpo.
 
 6. Compilação e Ambiente de Desenvolvimento
 Entenda como configurar e usar o compilador TypeScript (tsc) para transpilar seu código TypeScript em JavaScript. Aprenda a configurar um ambiente de desenvolvimento eficiente com ferramentas como o Visual Studio Code.
