@@ -44,6 +44,21 @@ const Conta = {
         const gruposTransacoes: GrupoTransacao[] = [];
         const listaTransacoes: Transacao[] = structuredClone(transacoes);
         const transacoeOrdenadas: Transacao[] = listaTransacoes.sort((t1, t2) => t2.data.getTime() - t1.data.getTime());
+        let labelAtualGrupoTransacao: string = "";
+
+        for(let transacao of transacoeOrdenadas){
+            let labelGrupoTransacao: string = transacao.data.toLocaleDateString("pt-br", {
+                month: "long",
+                year: "numeric"
+            })
+            if(labelAtualGrupoTransacao !== labelGrupoTransacao){
+                labelAtualGrupoTransacao = labelGrupoTransacao;
+                gruposTransacoes.push({
+                    label: labelGrupoTransacao,
+                    transacoes: []
+                })
+            }
+        }
     }
 
     registrarTransacao(novaTransacao: Transacao): void {
