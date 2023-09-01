@@ -14,7 +14,7 @@ Vendo formas de organizar o código em módulos TypeScript, facilitando a reutil
 O TypeScript é um superset do JavaScript, o que significa que se pode usar bibliotecas e código JavaScript existentes no projeto TypeScript. Aprendendo a integrar essas duas tecnologias de forma eficaz.
 
 4. Classes e Orientação a Objetos
-O TypeScript suporta programação orientada a objetos. Você explorará como criar classes, interfaces, herança e encapsulamento para construir código mais organizado e reutilizável.
+O TypeScript suporta programação orientada a objetos. Explorando como criar classes, interfaces, herança e encapsulamento para construir código mais organizado e reutilizável.
 
 5. Gerenciamento de Dependências
 Você aprenderá como usar o npm para gerenciar dependências de projeto, instalar pacotes TypeScript externos e manter seu ambiente de desenvolvimento limpo.
