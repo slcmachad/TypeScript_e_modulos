@@ -8,7 +8,7 @@ Este curso foi projetado para ajudar a aprender TypeScript através da implement
 O TypeScript é conhecido por sua tipagem estática. Aprendemos como definir tipos para suas variáveis, funções e classes, permitindo que capture erros em tempo de compilação e torne o código mais seguro e compreensível.
 
 2. Módulos e Organização de Código
-Você aprenderá a organizar seu código em módulos TypeScript, facilitando a reutilização de código e a criação de estruturas de projeto escaláveis.
+Vendo formas de organizar o código em módulos TypeScript, facilitando a reutilização de código e a criação de estruturas de projeto escaláveis.
 
 3. Integração com JavaScript
 O TypeScript é um superset do JavaScript, o que significa que você pode usar bibliotecas e código JavaScript existentes em seu projeto TypeScript. Aprenda a integrar essas duas tecnologias de forma eficaz.

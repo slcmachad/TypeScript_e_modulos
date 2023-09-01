@@ -59,7 +59,7 @@ const Conta = {
                 })
             }
         }
-    }
+    },
 
     registrarTransacao(novaTransacao: Transacao): void {
 
