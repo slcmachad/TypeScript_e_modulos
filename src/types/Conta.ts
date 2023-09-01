@@ -3,6 +3,8 @@ import { Transacao } from "./Transacao.js";
 
 let saldo: number = 3000;
 
+const transacoes: Transacao[] = JSON.parse(localStorage.getItem("transacoes")) || []; 
+
 function debitar(valor: number): void{
     if(valor <= 0){
         throw new Error("O valor a ser debitado deve ser maior que zero!");
@@ -36,6 +38,9 @@ const Conta = {
         }else{
             throw new Error('Tipo de Transação é inválido!');
         } 
+
+        transacoes.push(novaTransacao);
+        localStorage.setItem('transacoes', JSON.stringify(transacoes));
     }
 }
 
