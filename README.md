@@ -26,7 +26,7 @@ Entendendo como configurar e usar o compilador TypeScript (tsc) para transpilar 
 Escrevendo testes unitários e de integração para o código TypeScript e aprendendo a usar ferramentas de depuração para identificar e corrigir problemas.
 
 8. Documentação e Boas Práticas
-Documentando o código TypeScript adequadamente usando comentários e boas práticas de documentação. Aprenda a seguir as convenções de codificação para tornar seu código mais legível e colaborativo.
+Documentando o código TypeScript adequadamente usando comentários e boas práticas de documentação. Seguindo as convenções de codificação para tornar o código mais legível e colaborativo.
 
 9. Projeto Completo
 Ao longo do curso, você trabalhará em um projeto completo, aplicando todos os princípios e técnicas que aprenderá. Isso lhe dará a experiência prática necessária para desenvolver aplicativos TypeScript do mundo real.
