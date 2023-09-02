@@ -1,4 +1,5 @@
-import Conta from "../types/Conta.js";
+
+import  Conta  from "../types/Conta-antiga.js";
 import { FormatoData } from "../types/FormatoData.js";
 import { GrupoTransacao } from "../types/GrupoTransacao.js";
 import { formatarMoeda, formatarData } from "../utils/formatters.js";
@@ -11,11 +12,9 @@ function renderizarExtrato(): void {
     elementoRegistroTransacoesExtrato.innerHTML = "";
     let htmlRegistroTransacoes: string = "";
 
-    for (let grupoTransacao of gruposTransacoes)
-    {
+    for (let grupoTransacao of gruposTransacoes) {
         let htmlTransacaoItem: string = "";
-        for (let transacao of grupoTransacao.transacoes)
-        {
+        for (let transacao of grupoTransacao.transacoes) {
             htmlTransacaoItem += `
                 <div class="transacao-item">
                     <div class="transacao-info">
