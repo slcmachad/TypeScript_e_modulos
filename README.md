@@ -32,4 +32,4 @@ Documentando o código TypeScript adequadamente usando comentários e boas prát
 Ao longo do curso, foi trabalhado um projeto completo, aplicando todos os princípios e técnicas que foram vistas. Adquirindo  experiência com a prática necessária para desenvolver aplicativos TypeScript do mundo real.
 
 10. Comunidade e Recursos
-Descubra os recursos e a comunidade TypeScript disponíveis.
+Descubra os recursos e a comunidade TypeScript disponíveis, incluindo documentação oficial e fóruns.
