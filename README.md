@@ -23,7 +23,7 @@ Aprendendo como usar o npm para gerenciar dependências de projeto, instalando p
 Entendendo como configurar e usar o compilador TypeScript (tsc) para transpilar o código TypeScript em JavaScript. Aprendendo a configurar um ambiente de desenvolvimento eficiente com ferramentas como o Visual Studio Code.
 
 7. Testes e Depuração
-Descubra como escrever testes unitários e de integração para seu código TypeScript e aprenda a usar ferramentas de depuração para identificar e corrigir problemas.
+Escrevendo testes unitários e de integração para o código TypeScript e aprenda a usar ferramentas de depuração para identificar e corrigir problemas.
 
 8. Documentação e Boas Práticas
 Saiba como documentar seu código TypeScript adequadamente usando comentários e boas práticas de documentação. Aprenda a seguir as convenções de codificação para tornar seu código mais legível e colaborativo.
