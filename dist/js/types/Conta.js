@@ -30,7 +30,7 @@ const Conta = {
     getDataAcesso() {
         return new Date();
     },
-    getGruposTransacoe() {
+    getGruposTransacoes() {
         const gruposTransacoes = [];
         const listaTransacoes = structuredClone(transacoes);
         const transacoeOrdenadas = listaTransacoes.sort((t1, t2) => t2.data.getTime() - t1.data.getTime());
@@ -62,7 +62,7 @@ const Conta = {
             throw new Error('Tipo de Transação é inválido!');
         }
         transacoes.push(novaTransacao);
-        console.log(this.getGruposTransacoe());
+        console.log(this.getGruposTransacoes());
         localStorage.setItem('transacoes', JSON.stringify(transacoes));
     }
 };

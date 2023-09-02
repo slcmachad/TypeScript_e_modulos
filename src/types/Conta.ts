@@ -40,7 +40,7 @@ const Conta = {
         return new Date();
     },
 
-    getGruposTransacoe(): GrupoTransacao[] {
+    getGruposTransacoes(): GrupoTransacao[] {
         const gruposTransacoes: GrupoTransacao[] = [];
         const listaTransacoes: Transacao[] = structuredClone(transacoes);
         const transacoeOrdenadas: Transacao[] = listaTransacoes.sort((t1, t2) => t2.data.getTime() - t1.data.getTime());
@@ -75,7 +75,7 @@ const Conta = {
         } 
 
         transacoes.push(novaTransacao);
-        console.log(this.getGruposTransacoe());
+        console.log(this.getGruposTransacoes());
         
         localStorage.setItem('transacoes', JSON.stringify(transacoes));
     }
