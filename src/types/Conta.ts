@@ -58,7 +58,10 @@ const Conta = {
                     transacoes: []
                 })
             }
+            gruposTransacoes.at(-1).transacoes.push(transacao);
         }
+
+        return gruposTransacoes;
     },
 
     registrarTransacao(novaTransacao: Transacao): void {
@@ -72,6 +75,8 @@ const Conta = {
         } 
 
         transacoes.push(novaTransacao);
+        console.log(this.getGruposTransacoe());
+        
         localStorage.setItem('transacoes', JSON.stringify(transacoes));
     }
 }
