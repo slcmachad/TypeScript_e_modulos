@@ -29,7 +29,7 @@ Escrevendo testes unitários e de integração para o código TypeScript e apren
 Documentando o código TypeScript adequadamente usando comentários e boas práticas de documentação. Seguindo as convenções de codificação para tornar o código mais legível e colaborativo.
 
 9. Projeto Completo
-Ao longo do curso, foi trabalhado um projeto completo, aplicando todos os princípios e técnicas que foram vistas. Isso lhe dará a experiência prática necessária para desenvolver aplicativos TypeScript do mundo real.
+Ao longo do curso, foi trabalhado um projeto completo, aplicando todos os princípios e técnicas que foram vistas. Adquirindo  experiência com a prática necessária para desenvolver aplicativos TypeScript do mundo real.
 
 10. Comunidade e Recursos
 Descubra os recursos e a comunidade TypeScript disponíveis, incluindo documentação oficial, fóruns, bibliotecas populares e como contribuir para a comunidade.
