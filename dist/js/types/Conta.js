@@ -33,13 +33,10 @@ const Conta = {
     getGruposTransacoes() {
         const gruposTransacoes = [];
         const listaTransacoes = structuredClone(transacoes);
-        const transacoeOrdenadas = listaTransacoes.sort((t1, t2) => t2.data.getTime() - t1.data.getTime());
+        const transacoesOrdenadas = listaTransacoes.sort((t1, t2) => t2.data.getTime() - t1.data.getTime());
         let labelAtualGrupoTransacao = "";
-        for (let transacao of transacoeOrdenadas) {
-            let labelGrupoTransacao = transacao.data.toLocaleDateString("pt-br", {
-                month: "long",
-                year: "numeric"
-            });
+        for (let transacao of transacoesOrdenadas) {
+            let labelGrupoTransacao = transacao.data.toLocaleDateString("pt-br", { month: "long", year: "numeric" });
             if (labelAtualGrupoTransacao !== labelGrupoTransacao) {
                 labelAtualGrupoTransacao = labelGrupoTransacao;
                 gruposTransacoes.push({
@@ -57,13 +54,14 @@ const Conta = {
         }
         else if (novaTransacao.tipoTransacao == TipoTransacao.TRANSFERENCIA || novaTransacao.tipoTransacao == TipoTransacao.PAGAMENTO_BOLETO) {
             debitar(novaTransacao.valor);
+            novaTransacao.valor *= -1;
         }
         else {
-            throw new Error('Tipo de Transação é inválido!');
+            throw new Error("Tipo de Transação é inválido!");
         }
         transacoes.push(novaTransacao);
         console.log(this.getGruposTransacoes());
-        localStorage.setItem('transacoes', JSON.stringify(transacoes));
+        localStorage.setItem("transacoes", JSON.stringify(transacoes));
     }
 };
 export default Conta;
