@@ -29,4 +29,5 @@ export class Conta {
         return gruposTransacoes;
     }
 }
-const conta = new Conta("Joana da silva Oliveira");
+const conta = new Conta("Joana da Silva Olveira");
+export default conta;
