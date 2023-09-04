@@ -1,6 +1,6 @@
 # Curso de TypeScript na prática:
 
-implemente um projeto completo com TypeScript e módulos
+implementando um projeto completo com TypeScript e módulos
 
 Este curso foi projetado para ajudar a aprender TypeScript através da implementação de um projeto completo. Aqui estão alguns princípios importantes que foram encontrados durante o curso:
 
@@ -33,3 +33,21 @@ Ao longo do curso, foi trabalhado um projeto completo, aplicando todos os princ�
 
 10. Comunidade e Recursos
 Descubra os recursos e a comunidade TypeScript disponíveis, incluindo documentação oficial, fóruns, bibliotecas populares e como contribuir para a comunidade.
+
+
+## Continuação Curso parte 2:
+
+# Typescript: orientação a objetos
+
+Este projeto faz parte da escola Front-end e tem como objetivo ensinar a transformar trechos de código originalmente cosntruídos em programação funcional para programação orientada a objetos, destacando as diferenças entre os dois paradigmas.
+
+## Funcionalidades do projeto
+
+O projeto contará com o desenvolvimento de:
+
+- Classe conta e armazenador;
+- Atributos e construtor de conta;
+- Modificadores de acesso;
+- Métodos estáticos;
+- Herança de classes;
+- Decorators de validação.
