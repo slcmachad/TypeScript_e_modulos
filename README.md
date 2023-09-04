@@ -34,7 +34,6 @@ Ao longo do curso, foi trabalhado um projeto completo, aplicando todos os princ�
 10. Comunidade e Recursos
 Descubra os recursos e a comunidade TypeScript disponíveis, incluindo documentação oficial, fóruns, bibliotecas populares e como contribuir para a comunidade.
 
-
 ## Continuação Curso parte 2:
 
 # Typescript: orientação a objetos
